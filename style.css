@@ -1,0 +1,71 @@
+body {
+        font-family: Arial, sans-serif;
+            margin: 0;
+                padding: 0;
+                    background-color: #f4f4f4;
+                        color: #333;
+                        }
+
+                        header {
+                            background-color: #333;
+                                color: white;
+                                    padding: 1rem 0;
+                                        text-align: center;
+                                        }
+
+                                        header nav ul {
+                                            list-style: none;
+                                                padding: 0;
+                                                }
+
+                                                header nav ul li {
+                                                    display: inline;
+                                                        margin: 0 1rem;
+                                                        }
+
+                                                        header nav ul li a {
+                                                            color: white;
+                                                                text-decoration: none;
+                                                                }
+
+                                                                section {
+                                                                    padding: 2rem;
+                                                                        text-align: center;
+                                                                        }
+
+                                                                        section h2 {
+                                                                            color: #333;
+                                                                                margin-bottom: 1rem;
+                                                                                }
+
+                                                                                section#about img {
+                                                                                    border-radius: 50%;
+                                                                                        width: 150px;
+                                                                                            height: 150px;
+                                                                                                margin-bottom: 1rem;
+                                                                                                }
+
+                                                                                                .project {
+                                                                                                    display: inline-block;
+                                                                                                        width: 45%;
+                                                                                                            margin: 2rem 2.5%;
+                                                                                                                background-color: white;
+                                                                                                                    padding: 1rem;
+                                                                                                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                                                                                        }
+
+                                                                                                                        .project img {
+                                                                                                                            width: 100%;
+                                                                                                                                height: auto;
+                                                                                                                                }
+
+                                                                                                                                footer {
+                                                                                                                                    background-color: #333;
+                                                                                                                                        color: white;
+                                                                                                                                            text-align: center;
+                                                                                                                                                padding: 1rem 0;
+                                                                                                                                                    position: fixed;
+                                                                                                                                                        bottom: 0;
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            }
+}
